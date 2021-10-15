@@ -1,0 +1,628 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon"> 
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style type="text/css">
+  .container {
+    margin-top: 40px
+}
+
+.section-title {
+    margin-bottom: 38px
+}
+
+.shadow,
+.subscription-wrapper {
+    box-shadow: 0px 15px 39px 0px rgba(8, 18, 109, 0.1) !important
+}
+
+.icon-primary {
+    color: #062caf
+}
+
+.icon-bg-circle {
+    position: relative
+}
+
+.icon-lg {
+    font-size: 50px
+}
+
+.icon-bg-circle::before {
+    z-index: 1;
+    position: relative
+}
+
+.icon-bg-primary::after {
+    background: #062caf !important
+}
+
+.icon-bg-circle::after {
+    content: '';
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    top: -35px;
+    left: 15px;
+    border-radius: 50%;
+    background: inherit;
+    opacity: .1
+}
+
+p,
+.paragraph {
+    font-weight: 400;
+    color: #8b8e93;
+    font-size: 15px;
+    line-height: 1.6;
+    font-family: "Open Sans", sans-serif
+}
+
+.icon-bg-yellow::after {
+    background: #f6a622 !important
+}
+
+.icon-bg-purple::after {
+    background: #7952f5
+}
+
+.icon-yellow {
+    color: #f6a622
+}
+
+.icon-purple {
+    color: #7952f5
+}
+
+.icon-cyan {
+    color: #02d0a1
+}
+
+.icon-bg-cyan::after {
+    background: #02d0a1
+}
+
+.icon-bg-red::after {
+    background: #ff4949
+}
+
+.icon-red {
+    color: #ff4949
+}
+
+.icon-bg-green::after {
+    background: #66cc33
+}
+
+.icon-green {
+    color: #66cc33
+}
+
+.icon-bg-orange::after {
+    background: #ff7c17
+}
+
+.icon-orange {
+    color: #ff7c17
+}
+
+.icon-bg-blue::after {
+    background: #3682ff
+}
+
+.icon-blue {
+    color: #3682ff
+}
+/*Social links*/
+ .social_icon2 ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     margin-left: none;
+     margin-top: 0px;
+     display: inline-flex;
+ }
+
+ .gap {
+     margin-right: 0px
+ }
+
+ .social_icon2 ul li:first-child {
+     margin-left: 0px
+ }
+
+ .facebook {
+     background: #2a66b3;
+     border: 1px solid #2a66b3
+ }
+
+ .social_icon2 ul li a i {
+     margin-right: 0px
+ }
+
+ .twitter {
+     background: #35bbec;
+     border: 1px solid #35bbec
+ }
+
+ .social_icon2 ul li a {
+     float: left;
+     border-radius: 2px;
+     line-height: 40px;
+     color: #fff;
+     height: 40px;
+     width: 100px;
+     text-align: center;
+     margin-left: 5px;
+     border-radius: none;
+ }
+
+ .google {
+     background: #e55644;
+     border: 1px solid #e55644
+ }
+
+ .facebook:hover {
+     background: #082b58;
+     border: 1px solid #082b58
+ }
+
+ .twitter:hover {
+     background: #0f607e;
+     border: 1px solid #0f607e
+ }
+
+ .google:hover {
+     background: #a52a1b;
+     border: 1px solid #a52a1b
+ }
+
+/**/
+.fa {
+  padding: 12px;
+  font-size: 11px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  border-radius: 50%;
+  display: inline-block;
+  
+}
+                                                                                                                                                                                                                
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  display: inline-block;
+
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  display: inline-block;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+  display: inline-block;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  display: inline-block; 
+}
+
+
+</style>
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Abhi Management Services</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </head>
+  <body class="body bg">
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#" style=" red">Abhi Management Services</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#services">Services</a>
+        <a class="nav-link" href="#about">About</a>
+           <a class="nav-link" href="#Contact">Contact</a>
+        <a class="nav-link" href="#Pricing">Pricing</a>
+        <a class="nav-link disabled"  href="#" tabindex="1" aria-disabled="true" style="left: 70%;">GSTIN:<b>10FRAPK3778KZ0</b></a>
+      </div>
+    </div>
+  </div>
+</nav>
+<!--slider-->
+<!--start Hero Section-->
+<section id="hero" class="d-flex flex-column justify-content-center align-items-center" style="background-image: url(ab2.jpg);
+  background-repeat: no-repeat; background-size: cover; height: 658px;">
+ 
+    <div class="container" data-aos="fade-in">
+      <h1 style="color: white; font-size: 30px;font-weight: bold;">Welcome to Abhi Management Services</h1>
+      <h2 style="color:#fffafa; font-size: 20px;">We are providing best, A unit of Facility of Managements Services like Camera,weeding,Electric works..etc</h2>
+      <div class="d-flex align-items-center">
+        <i class="bx bxs-right-arrow-alt get-started-icon"></i>
+        <a href="#about" class="btn-get-started scrollto">Get Started</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero -->
+
+  <div class="container div-bg bg-light" id="services">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-title">Services We Provide</h2>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card border-0 shadow rounded-xs pt-5">
+                <div class="card-body"> <i class="bi-camera fa-object-ungroup icon-lg icon-primary icon-bg-primary icon-bg-circle mb-3"></i>
+                  <i class="bi bi-camera"></i>
+                    <h4 class="mt-4 mb-3">CCT Camera</h4>
+                    <p>Contact for installation or repair of CCTV_camera Buy the All Types of Electronics Compnents Servies we provide our team</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card border-0 shadow rounded-xs pt-5">
+                <div class="card-body"> <i class="fa fa-users icon-lg icon-yellow icon-bg-yellow icon-bg-circle mb-3"></i>
+                    <h4 class="mt-4 mb-3">Weeding Managements</h4>
+                    <p>we provides the all type of service like weeding -Marriage or party and Marriage Ceromany managements?</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card border-0 shadow rounded-xs pt-5">
+                <div class="card-body"> <i class="fa fa-desktop icon-lg icon-purple icon-bg-purple icon-bg-circle mb-3"></i>
+                    <h4 class="mt-4 mb-3">Repair Material</h4>
+                    <p>We provides the All types of repair components like AC,FAN,Refigirator,Washing-Machine,Battery,Invertor..etc.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card border-0 shadow rounded-xs pt-5">
+                <div class="card-body"> <i class="fa fa-cloud icon-lg icon-cyan icon-bg-cyan icon-bg-circle mb-3"></i>
+                    <h4 class="mt-4 mb-3">House Construction</h4>
+                    <p>For any types of Construction like Bangloow,Flat,House,Hat we are provides all types of services.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card border-0 shadow rounded-xs pt-5">
+                <div class="card-body"> <i class="fa fa-comments icon-lg icon-red icon-bg-red icon-bg-circle mb-3"></i>
+                    <h4 class="mt-4 mb-3">Home Services</h4>
+                    <p>Note: that We provides our Team Like Hair cutting,Furinture,Servents,..etc</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card border-0 shadow rounded-xs pt-5">
+                <div class="card-body"> <i class="fa fa-search-plus icon-lg icon-green icon-bg-green icon-bg-circle mb-3"></i>
+                    <h4 class="mt-4 mb-3">Home or Shop</h4>
+                    <p>Any type of electrical and electronics in home or shop we provides works our teams ?</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card border-0 shadow rounded-xs pt-5">
+                <div class="card-body"> <i class="fa fa-user icon-lg icon-orange icon-bg-orange icon-bg-circle mb-3"></i>
+                    <h4 class="mt-4 mb-3">Transpotation</h4>
+                    <p>Any types of Transportation like Bus,trucks, Train work we provide our team?</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card border-0 shadow rounded-xs pt-5">
+                <div class="card-body"> <i class="fa fa-envelope icon-lg icon-blue icon-bg-blue icon-bg-circle mb-3"></i>
+                    <h4 class="mt-4 mb-3">Online Services</h4>
+                    <p>We provides online related any updates like Gov-Jobs,Railway,SSC,UPSC,Printing?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Price section-->
+<div class="text-center" id="Pricing">
+    <div class="container">
+        <div class="row pt-4">
+            <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Cost</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1><b>Nil</b><small class="text-muted">/ Notify</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>According to demand</li>
+                            <li>Demand suply</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                        </ul> <button type="button" class="btn btn-lg btn-block btn-outline-info">Sign up for free</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Pro</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1><b>Nil</b><small class="text-muted">/ Notify</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>No fixed Amount</li>
+                            <li>According working</li>
+                            <li>Priority email support</li>
+                            <li>Help center access</li>
+                        </ul> <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Enterprise</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1><b>Nil </b><small class="text-muted">/ Notify</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Decided after budget</li>
+                            <li>According to working Hours</li>
+                            <li>Phone and email support</li>
+                            <li>Help center access</li>
+                        </ul> <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--About us-->
+
+ <!-- ======= About Section ======= -->
+    <section id="about" class="about section-bg bg-light">
+      <div class="container">
+      
+        <div class="row">
+          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="fade-right"><img src="logo.png">
+
+              </div>
+          <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+            <h4 data-aos="fade-up">About us</h4>
+            <h6 data-aos="fade-up" style="color:gray;">AMS Management Services is a leading firm based in India. "Our ultimate objective is to provide
+best services and improve overall growth of client's business in the cut-throat market".
+<br><br> A strong foothold of innovative ideas, seasoned skills and ability to deliver a services with most perfection is what drives us
+vociferously in the global Maket .Our Team we provides us this Sevices,<br><br>
+
+working experience of years, innovative strategies will really upgrade your business.We have provided best plus affordable Managemets services to numerous large as well as medium of Large Scale of Services.</h6>
+
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+<!--End-->
+<!--Contact US form-->
+    
+    <!--Section: Contact v.2-->
+<div id="Contact" class="Contact bg-light">
+    <form >
+<h4 id=bottom>
+  <a name="Feedback">
+    <div class="container" id="Contact">
+           <h2 class="text-center">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-8">
+                    <form action="#" method="post">
+                        <input class="form-control"name="name"placeholder="Name" /><br />
+                        <input class="form-control"name="phone"placeholder="phone" /><br />
+                        <input class="form-control"name="emails"placeholder="email" /><br />
+                        <textarea class="form-control"name="text"placeholder="How can i help you?"style="height:150px;"></textarea><br />
+                        <input class="btn btn-primary" type="submit" value="send" />
+                    </form>
+                </div>
+                </div>
+            </div>
+            </a>
+        </h4>
+    </div>
+
+<!--Social-->
+ <a target="_new" href="https://api.whatsapp.com/send?phone=9769441706&amp;forceIntent=true&amp;load=loadInIOSExternalSafari" class="social-icon whatsapp whatsup">
+ <img style="width:50px; position:fixed; bottom:150px; right:10px; z-index:10009; opacity:1; display:block;"src="whatspp-icon.gif"></a>
+<br>
+<br>
+<br>
+<a class="callss" href="tel:7977649404">
+    <img style="width:70px; position:fixed; bottom:95px; right:10px; z-index:10009; opacity:1; display:block; padding-left: 20px;" src="https://thumbs.gfycat.com/CelebratedAlienatedChinesecrocodilelizard.webp"> </a>
+<!--End Contact Us from-->
+
+  <!-- ======= Footer ======= -->
+<footer class="page-footer font-small unique-color-dark" style="background-color:#1C2331;">
+
+  <div style="background-color: #6351ce;">
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0">Get connected with us on social networks!</h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+          <!-- Facebook -->
+          <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-youtube"></a>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+  </div>
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold" style="color:white;">Abhi Management Services</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>Here we provides our team work Evey types of Managements Services Minimum Budget Happiest our Client of this Abhi Managemet Services like weeding decoration Party Setup etc.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold text-light">Our Services</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="#!">Construction</a>
+        </p>
+        <p>
+          <a href="#!">Transpotation</a>
+        </p>
+        <p>
+          <a href="#!">Weeding & Party</a>
+        </p>
+        <p>
+          <a href="#!">Home & shop Electricty</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold text-light">Useful links</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="#!">Home</a>
+        </p>
+        <p>
+          <a href="#!">About</a>
+        </p>
+        <p>
+          <a href="#!">Service</a>
+        </p>
+        <p>
+          <a href="#!">Contact</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold text-light">Contact</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+         <i class="fa fa-home" aria-hidden="true"></i>Sursand,Infront of Durga Mandir,Sitamarhi Bihar-843331</p>
+        <p>
+          <i class="fa fa-envelope-o" aria-hidden="true"></i>info@abhiserves.com</p>
+        <p>
+         <i class="fa fa-phone" aria-hidden="true"></i>+ 91 79 77 64 94 04 </p>
+        <p>
+          <i class="fa fa-whatsapp" aria-hidden="true"></i> + 91 97 69 44 17 06</p>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div align="center" class="copyright text-light">
+          &copy; Copyright:<strong><span style="color:blueviolet;">Daulat Technologies</span></strong>.All Rights Reserved
+        </div>
+         <div align="center" class="credits text-light">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/ -->
+          Designed by <a href="#">Daulat technologies</a>
+        </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" language="javascript"> $(function () { $(this).bind("contextmenu", function (e) { e.preventDefault(); }); }); </script>
+   <script>
+document.onkeydown = function(e) {
+        if (e.ctrlKey &&
+            (e.keyCode === 85 )) {
+            return false;
+        }
+};
+ // disable portal cut copy and paste options.
+  function killCopy(e){
+return false
+}
+function reEnable(){
+return true
+}
+document.onselectstart=new Function ("return false")
+if (window.sidebar){
+document.onmousedown=killCopy
+document.onclick=reEnable
+}
+</script>  
+
+
+  </body>
+</html>
